@@ -14,6 +14,7 @@ class Artist
 
   def self.hello_world
     puts "Hello, world!"
+    self
   end
 
   def self.all
