@@ -12,6 +12,10 @@ class Artist
     @songs << song
   end
 
+  def self.hello_world
+    puts "Hello, world!"
+  end
+
   def self.all
     @@all
   end
